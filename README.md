@@ -1,0 +1,1 @@
+# phonegap-example-sc
