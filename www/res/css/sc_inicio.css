@@ -1,0 +1,17 @@
+body
+p {
+  font:150% sans-serif;
+}
+
+body
+{  
+  color: black;
+}
+
+body
+{
+  background-color: #bbdefb;
+  display: block;
+  position: relative;
+  min-height: 100%;
+}

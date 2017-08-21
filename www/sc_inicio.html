@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>sc_inicio.html</title>
+   
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+      <link rel="stylesheet" href="css/sc_inicio.css">
+
+  
+</head>
+
+<body>
+  <!--Inicio del titulo -->
+<div class="row">
+  <div class="col s12 center"> 
+    <p>Security Guard</p> 
+  <div class="row">  
+  <div class="right">
+  <a href="#!" class="btn" id="Note" data-activates="menu3">
+    <i class="material-icons">menu</i></a></div>
+    </div> </div>
+  
+<ul id="menu3" class="side-nav blue white-text">
+   <div>
+    <div class="col s12 center blue-lighten-2">
+    <p>Introduction</p>
+      The development of purpose this application to make sure for that living safety and right of the education to the students. We looking fordward to this application for those people who would use this app for their keep safety or would learn about security from this app. We hope that it helps to their life not only make to alert but also to gain as basic right for living this miracle planet.   
+     </div>
+  <div class="row">
+  <div class="col s4 center">
+      <img class="responsive-img" src="https://trello-attachments.s3.amazonaws.com/5998e7c9f4a201852a18c381/5998e7d6567b94776c115ad6/0ff92ceceec6f81f3bc1a40565005e01/descarga.png"></div><br>  
+    
+      <div class="row">
+  <div class="col s4 center">  
+      <img class="responsive-img" src="https://trello-attachments.s3.amazonaws.com/599921a3f3ecc3f3a4301780/5999234e42398d88506f0d06/de4befd23a7ff8bd4fa6368431dffb08/eicon.png"></div><br>
+    
+      <div class="row">
+  <div class="col s4 center">  
+      <img class="responsive-img" src="https://trello-attachments.s3.amazonaws.com/599921a3f3ecc3f3a4301780/599922b4f3886d4e5b276c85/41464f14e77bfe21303bbd2cd9b4a8cd/20938701_1913912608847045_853982624_n-ConvertImage_(1).png">
+        </div><br>         
+  </ul>
+  
+  
+<!--Mapa-->
+<div class="row">
+  <div class="col s12 center">
+    <div id="map" style="width: 100%; height: 310px;"></div>
+  </div>
+</div>
+<!--Cierre de mapa-->
+
+
+
+<!--Iconos-->
+  <div class="row">
+  <div class="col s4 center">
+    <a href="#!" class="btn" id="Abre-Menu" data-activates="slide-out"> <i class="material-icons">call</i></a> </div>
+  <div class="col s4 center ">
+    <a href="#" class="btn" id="SeñalAlarma">
+      <i class="material-icons">radio_button_checked</i></a>
+  </div>
+  <div class="col s4 center">
+    <a href="#" class="btn" id="Texto" data-activates="menu2"> 
+      <i class="material-icons">message</i></a>
+</div>
+<!--Cierre de iconos-->
+
+
+<!--Desplegables-->
+    
+ <ul id="slide-out" class="side-nav blue white-text">
+    <div class="col s12 center blue-lighten-2">
+    <p>Mexico</p>
+    <li><a href="tel:911"><i class="material-icons">local_taxi</i>Police</a></li> 
+   <li><a href="tel:911"><i class="material-icons">local_shipping</i>Ambulance</a></li>
+      <li><a href="tel:911"><i class="material-icons">add_alert</i>Fire Station</a></li></div>
+    
+      <li><div class="divider"></div></li>
+    
+    <div class="col s12 center blue-lighten-2">
+    <p> South Korea</p>  
+    <li><a href="tel:112"><i class="material-icons">contact_phone</i>Police</a></li>
+    <li><a href="tel:117"><i class="material-icons">local_library</i>Violence in the School</a></li>   
+      <li><a href="tel:1366"><i class="material-icons">pan_tool</i>Sexual abuse</a></li></div>
+</ul>
+<!--Cierre desplegables-->
+
+<!--Desplegables-->
+    
+ <ul id="menu2" class="side-nav blue white-text">
+    <li><a href="tel: " 
+    onclick="alert('¡I have a problem!')" value="Click para ver un mensaje de alerta" id="boton1"/> <i class="material-icons">account_circle</i>Father</a></li>
+  <li><a href="tel: " 
+      onclick="alert('¡I have a problem!')" value="Click para ver un mensaje de alerta" id="boton2"/><i class="material-icons">account_circle</i>Mother</a></li>
+  <li><a href="tel: " 
+      onclick="alert('¡I have a problem!')" value="Click para ver un mensaje de alerta" id="boton3"/><i class="material-icons">account_circle</i>Teacher</a></li>
+      </ul>
+<!--Cierre desplegables-->
+
+<!--Izquierda a derecha-->
+      <div class="row">
+      <FONT FACE="Impact">
+      <MARQUEE BEHAVIOR=ALTERNATE ALIGN=BOTTOM SCROLLAMOUNT=10>
+        <p>¡¡Help me!!</p>
+        </MARQUEE>
+        </div>
+<!--Derecha a izquierda-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js'></script>
+<script src='https://maps.google.com/maps/api/js?sensor=true'></script>
+
+    <script src="js/sc_inicio.js"></script>
+
+</body>
+</html>
